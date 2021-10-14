@@ -1,0 +1,133 @@
+body {
+	font: 900 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+}
+
+h1,
+#quote,
+.bottom-container h3 {
+	font-family: 'Merriweather', serif;
+}
+
+strong,
+button {
+	font-family: 'Oswald', sans-serif;
+}
+
+header,
+ul {
+	display: flex;
+	flex-direction: row;
+}
+
+header {
+	justify-content: space-evenly;
+	background: black;
+	border-bottom: 5px solid yellow;
+}
+
+h1 {
+	color: yellow;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	width: 60%;
+}
+
+ul {
+	list-style-type: none;
+	justify-content: space-around;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.top-container {
+	background-image: url('/StartupMatchmaker/coworking.jpg');
+	display: flex;
+	justify-content: flex-end;
+	padding: 30px;
+}
+
+#quote {
+	background: lightgray;
+	margin: 0;
+	line-height: 3em;
+	text-align: center;
+}
+
+#line-through {
+	text-decoration: line-through;
+	color: darkgray;
+}
+
+#underline {
+	border-bottom: 2px solid yellow;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.top-container article {
+	width: 40%;
+	padding: 40px;
+	border: 1px solid gray;
+	background-color: rgba(355, 355, 355, 0.7);
+}
+
+button {
+	width: 100%;
+	height: 2em;
+	border: none;
+	border-radius: 3px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	font-weight: 900;
+}
+
+#main-article button {
+	background-color: yellow;
+	box-shadow: 3px 3px 1px olive;
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.bottom-container article {
+	margin: 20px 0;
+	padding: 20px 40px;
+}
+
+.border-right {
+	border-right: 1px solid lightgray;
+}
+
+.bottom-container button {
+	background-color: lightgray;
+	box-shadow: 3px 3px 1px darkgray;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	line-height: 4em;
+	font-size: 15px;
+	padding-left: 40px;
+}
