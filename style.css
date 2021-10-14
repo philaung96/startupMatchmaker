@@ -55,7 +55,7 @@ h3 {
 }
 
 .top-container {
-	background-image: url('/StartupMatchmaker/coworking.jpg');
+	background-image: url('StartupMatchmaker/coworking.jpg');
 	display: flex;
 	justify-content: flex-end;
 	padding: 30px;
